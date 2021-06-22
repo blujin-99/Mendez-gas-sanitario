@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+body{
+    font-family: 'heebo', sans-serif;
+    background-color: cadetblue;
+}
+.logo{
+    height:300px;
+    width: auto;
+    margin-left: -20px;
+    margin-right: -20px;
+margin-top: -20px;
+margin-bottom: 100px;
+}
+article{
+    background-color: white;
+    position: relative;
+    right: auto;
+    width: 600px;
+    height: 580px;
+}
+.textoA{
+    width: 450px;
+    margin:10px 50px 15px;
+    color: rgb(11, 11, 12);
+}
+.textoB{
+    width: 450px;
+    margin:0px 50px 25px;
+    color: rgb(11, 11, 12);
+    
+}
+.titulo{
+    margin: 10px 50px 0px;
+    width: auto;
+    font-family:'Staatliches', cursive; 
+    color: rgba(60, 60, 196, 0.719);
+}
+.contenido{
+    margin:auto;
+    background-color: cadetblue;
+    width: 500px;
+    padding: 30px;  
+}
+.menu p{
+  position: relative;
+  right: 130px;
+}
+ul.menu{
+position: relative;
+top: -600px;
+left: 570px;
+list-style-type:none;
+}
+.menu li{
+   display: inline;
+   padding-left: 10px;
+}
+ul.slider{
+    position: relative;
+    top: -620px;
+    left: 360px;
+width: 600px;
+height:400px ;
+list-style:none;
+}
+ul.slider li{
+    position: absolute;
+    /* esto hace que las imagenes se superpongan una sobre otra*/
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    /* hereda el tamaño de la class slider*/
+    transition: opacity .5s;
+    background-color: rgb(247, 205, 92);
+}
+ul.slider li img{
+    width:540px ;
+    height: 360px;
+    margin: 20px 30px ;
+    object-fit: cover;
+}
+ul.slider li:first-child{
+    opacity: 1;
+}
+ul.slider li:target{
+    opacity:1;
+}
+.formulario{
+    background-color: rgb(48, 45, 45);
+    width: 600px;
+    height:320px ;
+    margin: auto;
+    position: relative;
+    bottom: 460px;
+    right: 360px;
+}
+.formulario p, h3{
+    position:relative;
+    left: 50px;
+    top: 20px;
+    color: rgb(248, 246, 246);
+}
+.block1{
+    position: relative;
+    left: 50px;
+    width: 200px;
+}
+.block2{
+    position: inherit;
+    left: 27px;
+    width: 200px;
+}
+.block3{
+    position: inherit;
+    left: 8px;
+    top: 30px;
+    width: 400px;
+    height: 100px;
+}
+.block4{
+    position: relative;
+    left: 505px;
+    top: 40px;
+    background-color: orange;
+}
+.title_cont{
+    position: relative;
+    bottom: 500px;
+    color: honeydew;
+}
+.text_cont{
+    position: relative;
+    bottom: 490px;
+    color: honeydew;
+}
+.pie{
+    clear: both;
+    text-align: center;
+    background-color: rgb(28, 69, 145);
+    color: white;
+    height: 160px;
+    padding: 30px;
+    width: 1458px;
+    margin-left: -40px;
+}
