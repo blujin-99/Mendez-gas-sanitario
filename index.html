@@ -4,57 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="logo/gas_sanitario.jpg" type="image/JPG">
     <title>Mendez-plomero-gasista</title>
 </head>
 <body>
-    <header>
-        <img class="logo" src="logo/méndez.png">
-    </header>
-    <article>
-        <br>
-        <h2 class="titulo">Servicios Esenciales</h2><br>
-        <p class="textoA">Atención a urgencia domiciliar. Se realiza desobstrucció de cloaca, instalación de agua, plubial, habitación de servicio de gas, reparación de artefactos y red de incendios para edificios. Se realiza atención personalizada y presupuesto sin cargo</p><br>
-        <h2 class="titulo">Instalaciones</h2>
-        <p class="textoB">Cocina multimarca, calefactores, termotanques, calefones (tiro forzado y tiro natural), caldera para calefacción domiciliaria por agua. </p>
-        <h2 class="titulo">Información personal</h2><br>
-        <p class="textoB">Iformación personal: Matriculado Méndez Fernando, manejo de personal de obra e interpretación de planos y programador de proyestos. Calculo de cañería de agua y gas en edificios </p>
-    </article>
-    <div class="contenido">
-        <ul class="slider">
-            <li id="1"> <img src="slider/baño.jpeg"> </li>
-            <li id="2"> <img src="slider/gas.jpeg"></li>
-            <li id="3"> <img src="slider/tanque.jpeg"></li>
-            <li id="4"> <img src="slider/clo.jpeg"></li>
-        </ul>
-        <ul class="menu">
-            <p><b>Haz click en los items para ver algunos de nuestros trabajos</b></p>
-            <li> <a href="#1"> <img  src="logo/1.png"> </a> </li> 
-            <li><a href="#2"> <img src="logo/2.png"> </a> </li>
-            <li><a href="#3"> <img src="logo/3.png"> </a> </li>
-            <li> <a href="#4"><img src="logo/4.png"> </a></li>
-        </ul>
+    <div class="container-logo">
+        <header>
+            <img class="logo" src="logo/méndez.png" alt="Logo Méndez Gas y Sanitario">
+        </header>
     </div>
-    <h2 class="title_cont">¡Dejanos tu contacto!</h2>
-        <p class="text_cont">En caso de cualquier urgencia e incombeniente puedes dejarnos tu contacto y comentario</p>
-    <div class="formulario">
-        <form>
-            <h3>Contacto</h3>
-            <p>Email <input class="block1" type="email" ></p>
-            <p>Teléfono <input class="block2" type="tel" ></p>
-            <p>Comentario <input class="block3" type="text" required></p>
-            <input class="block4" type="submit" value="Enviar">
-        </form>
+    <div class="container-article">
+            <article class="contenido"><br>
+                <img id="foto-fernando" src="logo/perfil-Fernando.jpg">
+                <h2 class="titulo">Información personal</h2>
+                <h4 class="title-info">Nombre y Apellido: </h4> <p class="info-personal">Méndez Fernando.</p><br>
+                <h4 class="title-info">Edad: </h4> <p class="info-personal"> 51 Años.</p><br>
+                <h4 class="title-info">Experiencias laborales: </h4> <p class="info-personal"> Gonzáles Hermanos, DOM SRL, Gestio Administración de edificios. </p>
+                <p class="parrafo">Matriculado Méndez Fernando, manejo de personal de obra e interpretación de planos y programador de proyestos. Calculo de cañería de agua y gas en edificios. </p>
+                <h2 class="titulo">Servicios Esenciales</h2>
+                <p class="parrafo">Atención a urgencia domiciliar. Se realiza desobstrucció de cloaca, instalación de agua, plubial, habitación de servicio de gas, reparación de artefactos, red de incendios para edificios y servicio de reparación para consorcios. Se realiza atención personalizada y presupuesto sin cargo.</p>
+                <h2 class="titulo">Instalaciones</h2>
+                <p class="parrafo">Cocina multimarca, calefactores, termotanques, calefones (tiro forzado y tiro natural), caldera para calefacción domiciliaria por agua. </p><br>
+            </article>
     </div>
-<footer class="pie">
-    <div>
-    <p>Envíanos un mensaje por</p>
-    <a target="_blank"  href="https://wa.me/5493425514885"><img src="logo/whatsapp-logo-24.png" title="Whatsapp"></a>
-    <a href=""><img src="logo/facebook-logo-24.png"title="Facebook"></a>
-    <a href=""><img src="logo/instagram-logo-24.png" title="Instagram"></a>
-</div>
-    <p>Copyright © 2021 Mendez-plomero-gasista</p>
-</footer>
+    <div class="slider">
+                <ul>
+                    <li><img id="slide1" src="slider/propaganda.jpg" alt="propaganda"></li> 
+                    <li><img  src="slider/plano.jpg" alt="plano"></li> 
+                    <li><img   src="slider/clo.jpeg" alt="baño"></li> 
+                    <li><img   src="slider/gas.jpeg" alt="instalación de gas"></li> 
+                    <li><img   src="slider/tanque.jpg" alt="img tanque"></li> 
+                </ul>
+    </div>
+    <div class="container-footer">
+        <footer class="pie">
+        <div class="contactos">
+            <p> Contactame en mis redes sociales</p>
+            <a target="_blank"  href="https://wa.me/5493424232299"><img id="whatsapp" src="logo/bxl-whatsapp.svg"/>+549 3424232299</a>
+            <a target="_blank" href="https://www.instagram.com/fernandomendez6443"><img id="instagram" src="logo/bxl-instagram.svg"/>fernandomendez6443</a>
+            <a target="_blank" href="mailto:mendezfernandodaniel1@gmail.com"><img id="gmail" src="logo/bxl-gmail.svg"/>mendezfernandodaniel1@gmail.com</a>
+        </div>
+        <hr>
+        <p id="copyright">Copyright © 2021 Mosqueda Déborah | Todos los derechos reservados</p>
+        </footer>
+    </div>
 </body>
 </html>
