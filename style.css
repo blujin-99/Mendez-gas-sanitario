@@ -246,10 +246,12 @@ body{
     width: auto;
     margin-top: 100px;
 }
-
+.pie a:visited{
+    color:rgb(245, 103, 9);
+}
 .contactos a {
     text-decoration:none;
-    color:cornsilk;
+    color: rgb(145, 144, 144); 
     margin-left:10px;
 }
 
