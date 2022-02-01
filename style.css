@@ -20,7 +20,15 @@ body{
 .container-article{
     width: 100vw;
     height: auto;
+    position:relative;
 }
+.parrafo, .titulo, .title-info{
+    width: 100vw;
+    height: auto;
+    position:relative;
+    
+}
+
 .contenido{
     width: 100vw;
     height: auto;
@@ -43,6 +51,10 @@ body{
 .title-info{
     font-family:'Staatliches', cursive; 
     color: rgb(253, 167, 7);
+}
+.empresas{
+    list-style-position:inside;
+    text-align: left;
 }
 .slider{
     width: 100vw;
