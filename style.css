@@ -44,7 +44,7 @@ body{
 .titulo{
     font-family:'Staatliches', cursive; 
     color: rgba(60, 60, 196, 0.719);
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom:10px;
 }
 .title-info{
@@ -137,11 +137,11 @@ body{
         height: auto;
         position:relative;
     }
-    .parrafo, .titulo, .title-info{
+    .titulo, .title-info{
         width: 100vw;
         height: auto;
         position:relative;
-        
+        padding: 20px;
     }
     
     .contenido{
